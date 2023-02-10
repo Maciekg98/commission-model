@@ -11,6 +11,9 @@ import lombok.NoArgsConstructor;
 @Data
 public class QuestionDto {
     //TODO do uzupełnienia
-    private String name;
+    private int id;
+    private String content;
+
+    //jak rozegrac te odpowiedzi single- multi- i otwarte? ENUMS?
 
 }
