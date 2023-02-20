@@ -12,5 +12,6 @@ import java.util.List;
 public class ExamDto {
 
     private String email;
+    private Long examNumber;
     private List<QuestionDto> questions;
 }
