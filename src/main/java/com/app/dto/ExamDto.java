@@ -1,14 +1,15 @@
 package com.app.dto;
 
-import lombok.Builder;
-import lombok.Data;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.List;
 
 @Data
 @Builder
 @ToString
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class ExamDto {
 
     private String email;
