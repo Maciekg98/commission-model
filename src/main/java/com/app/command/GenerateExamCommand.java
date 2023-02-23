@@ -11,7 +11,8 @@ import java.util.List;
 @ToString
 @NoArgsConstructor
 public class GenerateExamCommand {
-    private String email;
-    private Long examNumber;
+    private String emailFrom;
+    private String emailTo;
+    private String subject;
     private List<Long> questions;
 }
