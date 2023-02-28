@@ -1,18 +1,20 @@
 package com.app.dto;
 
+import com.app.model.Exam;
+import com.app.model.Question;
 import lombok.*;
 
 import java.util.List;
 
-@Data
-@Builder
-@ToString
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class ExamDto {
-
-    private String email;
-    private Long examNumber;
+    private Long id;
+    private String name;
     private List<QuestionDto> questions;
+
+
 }
